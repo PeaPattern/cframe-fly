@@ -33,7 +33,7 @@ UserInputService.InputEnded:Connect(function(Input, GPE)
     if GPE then return end
     if Input.KeyCode == Enum.KeyCode.W then Offset *= CFrame.new(0,0,0.1) end
     if Input.KeyCode == Enum.KeyCode.A then Offset *= CFrame.new(0.1,0,0) end
-    if Input.KeyCode == Enum.KeyCode.S then  Offset *= CFrame.new(0,0,-0.1) end
+    if Input.KeyCode == Enum.KeyCode.S then Offset *= CFrame.new(0,0,-0.1) end
     if Input.KeyCode == Enum.KeyCode.D then Offset *= CFrame.new(-0.1,0,0) end
     if Input.KeyCode == Enum.KeyCode.Q then Offset *= CFrame.new(0,0.1,0) end
     if Input.KeyCode == Enum.KeyCode.E then Offset *= CFrame.new(0,-0.1,0) end
